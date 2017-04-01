@@ -1,0 +1,26 @@
+{
+  "name": "polythene-examples",
+  "version": "0.2.35",
+  "description": "",
+  "main": "dist/js/examples.js",
+  "module": "dist/js/examples.mjs",
+  "scripts": {
+    "dev": "npm-run-all --parallel dev:watch dev:serve",
+    "dev:serve": "webpack-dev-server --config scripts/webpack.config.dev.js",
+    "dev:watch": "webpack --watch --config scripts/webpack.config.dev.js",
+    "build": "webpack -p --config scripts/webpack.config.js",
+    "serve": "http-server -p 8080 dist/"
+  },
+  "dependencies": {
+    "fastclick": "^1.0.6",
+    "mithril": "^0.2.5",
+    "mmsvg": "^1.4.0",
+    "polythene": "0.2.35"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "npm-run-all": "^4.0.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}

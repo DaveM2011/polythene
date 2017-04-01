@@ -1,0 +1,32 @@
+{
+  "name": "polythene",
+  "version": "0.2.35",
+  "description": "Modular implementation of Material Design for Mithril.",
+  "license": "MIT",
+  "keywords": [
+    "Material Design",
+    "Mithril"
+  ],
+  "main": "./index.js",
+  "dependencies": {
+    "fastclick": "^1.0.6",
+    "j2c": "^0.11.2"
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArthurClemens/Polythene.git"
+  },
+  "author": "Arthur Clemens",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/ArthurClemens/Polythene/issues"
+  },
+  "homepage": "https://github.com/ArthurClemens/Polythene"
+}

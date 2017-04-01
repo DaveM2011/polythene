@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/src/layout/theme/theme.js"],"names":["add"],"mappings":";;AAAA;;;;AACA;;;;AACA;;;;;;AAEA,iBAAOA,GAAP,CAAW,WAAX","file":"theme.js","sourcesContent":["import styler from '../../common/styler';\nimport flexStyle from './flex-style';\nimport commonStyle from './common-style';\n\nstyler.add('pe-layout', flexStyle, commonStyle);\n"]}

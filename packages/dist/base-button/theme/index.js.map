@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/src/base-button/theme/index.js"],"names":["add"],"mappings":";;AAAA;;;;AAEA;;;;;;AACA,iBAAOA,GAAP,CAAW,gBAAX","file":"index.js","sourcesContent":["import layout from './layout';\n\nimport styler from '../../common/styler';\nstyler.add('pe-base-button', layout);\n"]}

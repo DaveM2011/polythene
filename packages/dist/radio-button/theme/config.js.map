@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/src/radio-button/theme/config.js"],"names":[],"mappings":";;;;;;AAAA;;;;;;AAAkE","file":"config.js","sourcesContent":["import defaultConfig from '../../selection-control/theme/config'; // Note the generic config\nexport default defaultConfig;\n"]}

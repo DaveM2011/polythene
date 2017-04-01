@@ -1,0 +1,21 @@
+{
+  "name": "polythene-src",
+  "scripts": {
+    "transpile": "babel src --out-dir ../dist --source-maps",
+    "standalone": "node scripts/standalone.js",
+    "test": "jest ./*/__tests__/*.spec.js",
+    "test:watch": "jest ./*/__tests__/*.spec.js --watch"
+  },
+  "main": "./dist/index.js",
+  "dependencies": {
+    "fastclick": "^1.0.6",
+    "j2c": "^0.11.2"
+  },
+  "devDependencies": {
+    "jest": "^18.1.0",
+    "js-beautify": "^1.6.9",
+    "mithril": "^0.2.5",
+    "shelljs": "^0.7.6",
+    "uglifyify": "^3.0.4"
+  }
+}
