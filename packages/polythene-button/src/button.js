@@ -24,6 +24,7 @@ const view = vnode => {
     ? -1
     : attrs.tabindex || 0;
   const onClickHandler = attrs.events && attrs.events.onclick;
+  if(onClickHandler) delete attrs.events.onclick;
   const props = Object.assign(
     {}, 
     filterSupportedAttributes(attrs, { add: ["formaction", "type"] }),
